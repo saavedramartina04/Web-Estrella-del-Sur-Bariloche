@@ -1,20 +1,31 @@
 *{
     box-sizing: border-box;
     box-sizing: content-box;
-
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 400;
+     font-style: normal;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stardos+Stencil:wght@400;700&display=swap');
+
+
 body, ul, h1, h3, p{
     margin: 0;
 }
 
 body{
-    font-family: "open sans", sans-serif;
+   font-family: "Stardos Stencil", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header{
     
     width: 100%;
     height: auto;
+
+
 }
 header nav {
     background-color: #E61313;
@@ -53,6 +64,8 @@ header nav ul li a {
     text-align: center;
     line-height: 54px;
     margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #5d1919 ;
 }
 
 
@@ -62,6 +75,9 @@ header > div {
     width: 100%;
     border: 1px solid E6AA02;
     display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 #logo {
@@ -133,7 +149,7 @@ footer{
     color: white;
     height:100px ;
     text-align: center;
-    line-height:  100px; 
+    line-height:  50px; 
     font-size: 22px;
 }
 section p {
@@ -143,4 +159,21 @@ section p {
 #logoImg{
     height: 55px;
     width: 55px;
+}
+
+footer div img{
+    height: 35px;
+    width: 35px;
+}
+
+footer div a{
+    text-decoration-line: none;
+    color: white;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }

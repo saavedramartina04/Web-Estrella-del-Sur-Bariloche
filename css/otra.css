@@ -1,3 +1,9 @@
 main{
     padding: 20px;
 }
+main{
+    background: #ddd url(../img/fondo6.jpg)center no-repeat ;
+    background-size: cover;
+    padding: 20px;
+    height: auto;
+}

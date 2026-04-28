@@ -11,19 +11,19 @@ main{
 }
 
 section{
-    border: 1px dashed yellow;
+    border: 1px dashed white;
     width: 250px;
     height: auto;
-    padding: 15px;
-    margin: 15px;
-    background-color: #943;
+    padding: 5px;
+    margin: 5px;
+    background-color: #C22727;
     color: white;
-    border-radius:15px;
+    border-radius:20px;
 }
 section h3 {
     font-size: 24px;
     margin-bottom: 20px;
-    text-decoration: underline;
+    text-decoration: overline wavy;
 
 }
 
